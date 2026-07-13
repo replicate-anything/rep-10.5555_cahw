@@ -10,10 +10,10 @@ library(texreg)
 library(patchwork)
 library(scales)
 
-make_tab_5 <- function(data){
+make_tab_a5 <- function(data){
   tab = knitr::kable(data)
   return(tab)
 }
 
 
-make_tab_5(readRDS("../data/vardesc.rds"))
+make_tab_a5(readRDS("../data/vardesc.rds"))

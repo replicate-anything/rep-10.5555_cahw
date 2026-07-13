@@ -10,7 +10,9 @@ library(texreg)
 library(patchwork)
 library(scales)
 
-make_tab_6 <- function(data){
+source("helpers/add_star.R")
+
+make_tab_a6 <- function(data){
 tabd1 <- 
   data |>
   dplyr::mutate(
@@ -49,4 +51,4 @@ return(tabd1)
 }
 
 
-make_tab_6(readRDS("../data/tab_baseline.rds"))
+make_tab_a6(readRDS("../data/tab_baseline.rds"))
