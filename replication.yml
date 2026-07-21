@@ -31,7 +31,6 @@ steps:
   - tidyr
   - ggplot2
   id: fig_1
-  parents: []
   inputs:
   - data/y_df.csv
   engine: r
@@ -46,7 +45,6 @@ steps:
   - tidyr
   - ggplot2
   id: fig_2
-  parents: []
   inputs:
   - data/y_df.csv
   engine: r
@@ -57,7 +55,6 @@ steps:
   data: data/table_objects_quality_period2.rds
   code: code/html_table.R
   id: tab_1
-  parents: []
   inputs:
   - data/table_objects_quality_period2.rds
   engine: r
@@ -68,7 +65,6 @@ steps:
   data: data/table_objects_quality_period1.rds
   code: code/html_table.R
   id: tab_2
-  parents: []
   inputs:
   - data/table_objects_quality_period1.rds
   engine: r
@@ -79,7 +75,6 @@ steps:
   data: data/table_objects_quality_average.rds
   code: code/html_table.R
   id: tab_3
-  parents: []
   inputs:
   - data/table_objects_quality_average.rds
   engine: r
@@ -90,7 +85,6 @@ steps:
   data: data/table_objects_effort_period2.rds
   code: code/html_table.R
   id: tab_4
-  parents: []
   inputs:
   - data/table_objects_effort_period2.rds
   engine: r
@@ -101,7 +95,6 @@ steps:
   data: data/table_objects_effort_period1.rds
   code: code/html_table.R
   id: tab_5
-  parents: []
   inputs:
   - data/table_objects_effort_period1.rds
   engine: r
@@ -112,7 +105,6 @@ steps:
   data: data/table_objects_effort_average.rds
   code: code/html_table.R
   id: tab_6
-  parents: []
   inputs:
   - data/table_objects_effort_average.rds
   engine: r
@@ -123,7 +115,6 @@ steps:
   data: data/structural_1.rds
   code: code/return_rds_plot.R
   id: fig_3
-  parents: []
   inputs:
   - data/structural_1.rds
   engine: r
@@ -134,7 +125,6 @@ steps:
   data: data/structural_2.rds
   code: code/return_rds_plot.R
   id: fig_4
-  parents: []
   inputs:
   - data/structural_2.rds
   engine: r
@@ -146,7 +136,6 @@ steps:
   data: data/structural_3.rds
   code: code/return_rds_plot.R
   id: fig_5
-  parents: []
   inputs:
   - data/structural_3.rds
   engine: r
@@ -157,7 +146,6 @@ steps:
   data: data/model_te.rds
   code: code/return_rds_plot.R
   id: fig_6
-  parents: []
   inputs:
   - data/model_te.rds
   engine: r
@@ -168,7 +156,6 @@ steps:
   data: data/fig_components_prestand.rds
   code: code/return_rds_plot.R
   id: fig_7
-  parents: []
   inputs:
   - data/fig_components_prestand.rds
   engine: r
@@ -179,7 +166,6 @@ steps:
   data: data/vardesc.rds
   code: code/tab_5.R
   id: tab_a5
-  parents: []
   outputs:
   - outputs/tab_a5.html
   inputs:
@@ -190,7 +176,6 @@ steps:
   data: data/tab_baseline.rds
   code: code/tab_6.R
   id: tab_a6
-  parents: []
   outputs:
   - outputs/tab_a6.html
   inputs:
@@ -202,7 +187,6 @@ steps:
   code: code/tab_7.R
   incomplete: true
   id: tab_7
-  parents: []
   inputs:
   - data/soc_sanctions.rds
   engine: r
@@ -213,7 +197,6 @@ steps:
   data: data/sanctioning_plans.rds
   code: code/tab_8.R
   id: tab_8
-  parents: []
   inputs:
   - data/sanctioning_plans.rds
   engine: r
@@ -224,7 +207,6 @@ steps:
   data: data/sanctioning_plans.rds
   code: code/tab_9.R
   id: tab_9
-  parents: []
   inputs:
   - data/sanctioning_plans.rds
   engine: r
@@ -235,7 +217,6 @@ steps:
   data: data/timeline.csv
   code: code/tab_10.R
   id: tab_10
-  parents: []
   inputs:
   - data/timeline.csv
   engine: r
@@ -246,7 +227,6 @@ steps:
   data: data/balance_table.rds
   code: code/tab_11.R
   id: tab_11
-  parents: []
   inputs:
   - data/balance_table.rds
   engine: r
@@ -261,7 +241,6 @@ steps:
   code: code/tab_12.R
   incomplete: true
   id: tab_12
-  parents: []
   outputs:
   - outputs/tab_12.rds
   inputs:
@@ -274,7 +253,6 @@ steps:
   data: data/fig_perf_dist.rds
   code: code/return_rds_plot.R
   id: fig_8
-  parents: []
   inputs:
   - data/fig_perf_dist.rds
   engine: r
@@ -285,7 +263,6 @@ steps:
   data: data/table_subcomponents_std.rds
   code: code/tab_13.R
   id: tab_13
-  parents: []
   inputs:
   - data/table_subcomponents_std.rds
   engine: r
@@ -297,7 +274,6 @@ steps:
   code: code/tab_14.R
   incomplete: true
   id: tab_14
-  parents: []
   inputs:
   - data/table_subcomponents_not_std.rds
   engine: r
@@ -309,7 +285,6 @@ steps:
   code: code/tab_15.R
   incomplete: true
   id: tab_15
-  parents: []
   inputs:
   - data/table_subcomponents_not_std.rds
   engine: r
