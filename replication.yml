@@ -290,4 +290,4 @@ steps:
   engine: r
   outputs:
   - outputs/tab_15.html
-repo: replicate-anything/rep-10.5555_cahw
+repo: replicate-anything/rep-10.5555-cahw

@@ -1,7 +1,7 @@
 DOI <- "10.5555/cahw"
 WHAT <- "fig_1"
 FOLDER <- "10.5555_cahw"
-STUDY_REPO <- "replicate-anything/rep-10.5555_cahw"
+STUDY_REPO <- "replicate-anything/rep-10.5555-cahw"
 
 study_test_context <- function() {
   study_root <- normalizePath(
