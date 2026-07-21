@@ -8,7 +8,7 @@ Folder-backed replication materials for [10.5555/cahw](https://doi.org/10.5555/c
 replication.yml
 data/
 code/
-artifacts/
+outputs/
 tests/testthat/
 registry/
 ```
@@ -23,7 +23,7 @@ options(
   replicateEverything.registry_root = "../registry",
   replicateEverything.use_sibling_packages = TRUE
 )
-replicateEverything::build_study_artifacts(".", install_deps = TRUE)
+replicateEverything::build_study_outputs(".", install_deps = TRUE)
 ```
 
 ## Local development (monorepo)

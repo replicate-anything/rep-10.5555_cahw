@@ -22,7 +22,7 @@ make_tab_8 <- function(data){
       full_width = FALSE
     ) |>
     kableExtra::column_spec(2:3, extra_css = "text-align: right; padding-left: 12px; padding-right: 12px;")
-  return(tab)
+  as.character(tab)
 }
 
 

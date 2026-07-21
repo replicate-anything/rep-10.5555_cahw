@@ -11,8 +11,8 @@ library(patchwork)
 library(scales)
 
 make_tab_a5 <- function(data){
-  tab = knitr::kable(data)
-  return(tab)
+  tab <- knitr::kable(data, format = "html")
+  as.character(tab)
 }
 
 

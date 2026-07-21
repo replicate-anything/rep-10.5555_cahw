@@ -51,7 +51,7 @@ make_tab_11 <- function(data){
   # Optional: scale without introducing a table float
   tab_only_scaled <- paste0("\\begingroup\n\\resizebox{\\linewidth}{!}{%\n", tab_only, "\n}%\n\\endgroup\n")
   
-  return(tab_only)
+  as.character(tab_only)
 }
 
 

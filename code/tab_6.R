@@ -47,7 +47,7 @@ tabd1 <-
   kableExtra::row_spec(30, extra_latex_after = "\\midrule") %>% 
   kableExtra::footnote(general = "CAHW Surveys.", footnote_as_chunk = TRUE, threeparttable = TRUE)
 
-return(tabd1)
+as.character(tabd1)
 }
 
 
